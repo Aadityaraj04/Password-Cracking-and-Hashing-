@@ -1,3 +1,4 @@
+
 # 🔐 Password Cracking and Hashing Algorithms
 
 ## 🎯 Objective
@@ -27,3 +28,6 @@ python3 brute_force_demo.py
 
 ## 🔗 Author
 [Adityaraj mandloi] – Internship at CodEC Technologies
+
+# Password-Cracking-and-Hashing-
+7cc6aa07123e93498b3a146f494212c97823f0db
