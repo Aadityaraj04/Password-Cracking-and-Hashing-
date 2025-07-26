@@ -1,0 +1,4 @@
+# Example for cracking SHA-256 hashes
+echo -n "mypassword" | sha256sum > hashes.txt
+hashcat -m 1400 -a 0 hashes.txt wordlist/common_passwords.txt
+hashcat -m 1400 -a 0 hashes.txt wordlist/common_passwords.txt --show

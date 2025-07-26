@@ -1,0 +1,8 @@
+# Step 1: Create a password file
+echo 'admin:$6$randomsalt$wJXXj5iYy...' > shadow.txt
+
+# Step 2: Run John the Ripper
+john --wordlist=wordlist/common_passwords.txt shadow.txt
+
+# Step 3: Show cracked password
+john --show shadow.txt
